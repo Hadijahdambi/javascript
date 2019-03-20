@@ -1,0 +1,12 @@
+ASSIGNMENT   FOR WEEK TWO
+Explain declaration, definition and initialization in js?
+1. INITIALIZATION- means of assigning an initial value to a variable , example undefined is the initial value of a declared variable 
+2. DEFINITION- assigns a specified  value to the var                                                                   
+Example “fruits” variable  x=15.
+3. DECLARATION- creating  a variable in JavaScript 
+Var  x=5;
+Var  y =6; 
+Var  z=x+y
+
+  
+
