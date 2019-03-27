@@ -1,0 +1,26 @@
+fruits_list = ["mango", "kiwi", "orange", "apple", "banana"]
+
+function printFruits (fruits_list)
+
+{
+console.log(fruits_list);
+}
+
+
+
+(5) ["mango", "kiwi", "orange", "apple", "banana"]
+
+var fruit_index = prompt("from fruits_list call 4")
+
+console.log(fruits_list[fruit_index]);
+
+function callFruit(fruits_list, fruit_index)
+
+{alert(fruits_list[fruit_index]);}
+
+
+
+
+VM4179:2 banana
+
+undefined
