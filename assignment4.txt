@@ -1,0 +1,30 @@
+fruits = {"orange":10,"kiwi":8,"mango":5,"peach":15,"banana":20}
+
+{orange: 10, kiwi: 8, mango: 5, peach: 15, banana: 20}
+
+var quantity = 2
+
+undefined
+
+var price = fruits["mango"]*quantity
+
+undefined
+
+price
+
+10
+
+function calculateFruitCost (specific,quatity)
+{
+frutis = {"orange":10,"kiwi":8,"mango":5,"peach":15,"banana":20};
+
+console.log(quantity +' '+" for KES "+price);}
+
+undefined
+
+calculateFruitCost("mango" ,2);
+
+VM1634:3
+ 2  for KES 10
+
+undefined
