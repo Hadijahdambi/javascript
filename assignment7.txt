@@ -1,0 +1,92 @@
+
+ 
+class KioskCalc {
+  constructor(fruit,quantity) {
+    this.fruit = fruit;
+    this.quantity = quantity;
+    
+    this.fruitsPriceList = { "orange": 30,"mango":15,"avocado":40,"kiwi":60,"banana":40,"peach":10,"apple":15, };
+  }
+
+getTotalCost() {
+  var price = this.fruitsPriceList[this.fruit]*this.quantity;
+  return this.quantity + ' ' + this.fruit + ' ' + " for KES" + ' ' + price;
+ } 
+}
+var kioskCalc = new KioskCalc("orange" ,2);
+
+console.log(kioskCalc.getTotalCost());
+
+
+var kioskCalc = new KioskCalc("mango" ,2);
+
+console.log(kioskCalc.getTotalCost());
+
+
+var kioskCalc = new KioskCalc("avocado" ,2);
+
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("kiwi" ,4);
+
+console.log(kioskCalc.getTotalCost());
+
+
+var kioskCalc = new KioskCalc("banana" ,4);
+
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("peach" ,3);
+
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("apple" ,3);
+
+console.log(kioskCalc.getTotalCost());
+
+
+
+class KioskCalc {
+  constructor(fruit,quantity) {
+    this.fruit = fruit;
+    this.quantity = quantity;
+    
+    this.fruitsPriceList = { "orange": 30,"mango":15,"avocado":40,"kiwi":60,"banana":40,"peach":10,"apple":15, };
+  }
+
+getTotalCost() {
+  var price = this.fruitsPriceList[this.fruit]*this.quantity;
+  return this.quantity + ' ' + this.fruit + ' ' + " for KES" + ' ' + price;
+ } 
+}
+var kioskCalc = new KioskCalc("orange" ,2);
+console.log(kioskCalc.getTotalCost());
+
+
+var kioskCalc = new KioskCalc("mango" ,2);
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("avocado" ,2);
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("kiwi" ,4);
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("banana" ,4);
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("peach" ,3);
+console.log(kioskCalc.getTotalCost());
+
+var kioskCalc = new KioskCalc("apple" ,3);
+console.log(kioskCalc.getTotalCost());
+
+
+
+"2 orange  for KES 60"
+"2 mango  for KES 30"
+"2 avocado  for KES 80"
+"4 kiwi  for KES 240"
+"4 banana  for KES 160"
+"3 peach  for KES 30"
+"3 apple  for KES 45"
