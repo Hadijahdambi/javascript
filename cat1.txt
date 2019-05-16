@@ -1,0 +1,95 @@
+
+class MumMboga {
+  
+  constructor() {
+    this.products = [];
+    this.carts = [];
+    this.orders = [];
+    this.customers  = [];
+  }
+
+  addProduct (productId,name,quantity,price){ 
+    return this.products+' '+this.carts+' '+this.orders+' '+this.customers;
+  }  
+  removeCustomer(productId);{
+    return this.products;
+  } 
+  
+  updateCustomer (productId, name, quantity, price){
+   return this.products+' '+this.carts+' '+this.orders+' '+this.customers;
+  }
+  
+ getCustomer (productId);
+    var y = {
+      productId: 790,
+      name: "Hadijah",
+      quantity: "120 kg",
+      price: "KES 234,"
+  }
+ return y;
+  }
+  addProduct(productId,name,price,quantity) {
+    return this.products + ' '+ this.carts+ ' '+this.customers;
+  }
+  
+
+ removeProduct (productId) {
+    return this.products;
+  } 
+  
+updateProducts (productId, name, price,quantity){
+    return this.products + ' '+ this.carts + ' '+this.order, + ' ' this.customers;
+  }
+  
+getProduct (productId) {
+    var red = {
+      name: "Mix",
+      productId: 900,
+      price: "KES 200"
+    };
+    return red;
+  }
+  }
+  
+  getProductCatalog (); {
+    var fruits={("mango":10):("pinaapple":30):("kiwi:15");}
+    alert(fruits)
+  }
+  
+
+  addToCart ( cartId, product, orderQuantity, customerId)
+  return this.carts + ' ' + this.order, + ' 'this.customers;
+
+  removeFromCart(productId)
+  return this.products
+
+ 
+  }
+  
+  createOrder (orderId, cartId) {
+    return this.products +' '+this.carts+' '+this.orders+' '+this.customers;
+  }
+  
+   calculateOrderCost (productId,quatity) {
+    return this.products + ' ' +this.orders;
+     getTotalCost(),
+}
+
+getOrder = new Customer (309,"Hadijah",",234,);
+alert (Hadijah.getCustomer());
+
+
+
+const voss = new customer (,305, "jane", "matto","Nairobi");
+alert (voss.addCustomer());
+     
+const john = new customer (309,"hadijah","mony",234,);
+console.log (john.updatecustomer());
+     
+     
+const watto = new Customer ("N/A");
+console.log (watto.removeCustomer());
+
+
+const caty = new customer ();
+console.log (caty.getCustomer());
